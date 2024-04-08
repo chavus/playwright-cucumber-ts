@@ -3,6 +3,8 @@ import { Browser, chromium, firefox,  webkit, type LaunchOptions } from "@playwr
 export const SUPPORTED_BROWSERS = ['chromium','firefox','webkit'] as const
 export type BrowserName = typeof SUPPORTED_BROWSERS[number]
 
+// TODO: Refactor this asset to be a class contining methods to configure and launch browsers, and other related actions.
+
 /**
  * Initalizes Playwright browser and page with specified options
  * @param baseURL 
