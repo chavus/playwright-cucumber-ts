@@ -11,6 +11,6 @@
     "ts-node": "^10.9.2"
   },
   "scripts": {
-    "test": "cross-env ENV=%npm_config_env% BROWSER=%npm_config_testBrowser% cucumber-js test --format 'html':'cucumber-report.html'"
+    "test": "cross-env ENV=%npm_config_env% BROWSER=%npm_config_testBrowser% cucumber-js test"
   }
 }
